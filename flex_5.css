@@ -1,0 +1,22 @@
+body{
+    background-color: brown;
+    
+}
+.modal{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+   
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon{
+    border: 2px solid red;
+    
+}
