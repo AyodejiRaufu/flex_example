@@ -1,0 +1,66 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 8px;
+    margin: 8px;
+}
+
+.right_header{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.links{
+   display: flex;
+   align-items: center;
+   gap: 18px;
+   list-style-type: none;
+   font-size: 20px;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: purple;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+
+}
+
+.profile-image{
+    width: 50px;
+    height: 50px;
+    border: 2px solid purple;
+    border-radius: 50%;
+    background-color: purple;
+}
+
+.left_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+
+.notifications{
+    background-color: purple;
+    color: white;
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    height: 25px;
+    align-self: center;
+}
+
+.bottom{
+    background-color: gainsboro;
+    height: 50px;
+    
+}
